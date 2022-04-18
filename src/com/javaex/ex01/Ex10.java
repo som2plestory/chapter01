@@ -12,14 +12,14 @@ public class Ex10 {
 		System.out.println("&& 연산자");
 		System.out.println(true && true); //true
 		System.out.println(true && false); //false
-		System.out.println(false && true); //false
-		System.out.println(false && false); //false
+		System.out.println(false /* && true */); //false
+		System.out.println(false /* && false */); //false
 		//Dead code : ∧논리에서 false가 먼저오면 당연히 결과는 false이므로 경고 표시
 		
 		//논리 연산자 기본 ||
 		System.out.println("|| 연산자");
-		System.out.println(true || true); //true
-		System.out.println(true || false); //true
+		System.out.println(true /* || true */); //true
+		System.out.println(true /* || false */); //true
 		System.out.println(false || true); //true
 		System.out.println(false || false); //false
 		//Dead code : ∨논리에서 true 존재 → true	
