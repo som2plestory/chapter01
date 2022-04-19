@@ -20,6 +20,7 @@ public class Ex12 {
 		}while(num!=0); 
 		System.out.println("종료");
 		
+		
 		sc.close();
 	}
 }
