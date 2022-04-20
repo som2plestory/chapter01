@@ -3,6 +3,7 @@ package com.javaex.ex05;
 public class Ex01 {
 	public static void main(String[] args) {
 		
+<<<<<<< HEAD
 		//랜덤함수 기본
 		/*
 		 * double num = Math.random(); 
@@ -39,6 +40,10 @@ public class Ex01 {
 		 * { System.out.println(ni[i]); }
 		 */
 			
+=======
+		double num  = Math.random();
+		System.out.println(num);
+>>>>>>> d0058a981ff08d84f422825d58e55400ce22f00a
 		
 	}
 }
