@@ -30,7 +30,7 @@ public class Ex01 {
 	  	int n5=(int)(Math.random()*45+1); 
 	  	System.out.print(n5+"\t"); 
 	  	int n6=(int)(Math.random()*45+1); 
-	  	System.out.print(n6+"\t");
+	  	System.out.print(n6);
 		 
 		System.out.println("======================================");
 		
