@@ -1,6 +1,6 @@
 package com.javaex.ex01;
 
-public class EX04_1 {
+public class Ex04_1 {
 	
 	public static void main(String[] args) {
 		
