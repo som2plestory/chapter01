@@ -6,7 +6,10 @@ public class Ex07 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 			for(int i = 0; i<6; i++) {
-				System.out.println("******");
+				for(int n=0; n<6; n++){
+				System.out.print("*");
+				}
+				System.out.println("");
 			}
 		
 		sc.close();
